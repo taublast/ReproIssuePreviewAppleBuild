@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReproAppleBuild", "App\ReproAppleBuild.csproj", "{41BDD230-0824-4D8F-A39F-01EE56F729EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Refs", "Refs", "{740E3C36-5DB0-4F9B-A0E5-25CE24D4BD22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommunityToolkit.Maui.SourceGenerators.Internal", "Refs\CommunityToolkit.Maui.SourceGenerators.Internal\CommunityToolkit.Maui.SourceGenerators.Internal.csproj", "{9E8CB94E-12A3-429A-AE65-49CDB29EF8D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommunityToolkit.Maui.SourceGenerators", "Refs\CommunityToolkit.Maui.SourceGenerators\CommunityToolkit.Maui.SourceGenerators.csproj", "{83663E62-4420-45D6-8EB5-542E84864AE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommunityToolkit.Maui.Core", "Refs\CommunityToolkit.Maui.Core\CommunityToolkit.Maui.Core.csproj", "{095171E3-90F8-4AF2-8835-0509DCA1CDF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommunityToolkit.Maui", "Refs\CommunityToolkit.Maui\CommunityToolkit.Maui.csproj", "{B5C6C847-4EDC-48AF-ADE6-9236D26FE12D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41BDD230-0824-4D8F-A39F-01EE56F729EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41BDD230-0824-4D8F-A39F-01EE56F729EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41BDD230-0824-4D8F-A39F-01EE56F729EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41BDD230-0824-4D8F-A39F-01EE56F729EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E8CB94E-12A3-429A-AE65-49CDB29EF8D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E8CB94E-12A3-429A-AE65-49CDB29EF8D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E8CB94E-12A3-429A-AE65-49CDB29EF8D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E8CB94E-12A3-429A-AE65-49CDB29EF8D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83663E62-4420-45D6-8EB5-542E84864AE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83663E62-4420-45D6-8EB5-542E84864AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83663E62-4420-45D6-8EB5-542E84864AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83663E62-4420-45D6-8EB5-542E84864AE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{095171E3-90F8-4AF2-8835-0509DCA1CDF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{095171E3-90F8-4AF2-8835-0509DCA1CDF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{095171E3-90F8-4AF2-8835-0509DCA1CDF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{095171E3-90F8-4AF2-8835-0509DCA1CDF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5C6C847-4EDC-48AF-ADE6-9236D26FE12D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5C6C847-4EDC-48AF-ADE6-9236D26FE12D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5C6C847-4EDC-48AF-ADE6-9236D26FE12D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5C6C847-4EDC-48AF-ADE6-9236D26FE12D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9E8CB94E-12A3-429A-AE65-49CDB29EF8D1} = {740E3C36-5DB0-4F9B-A0E5-25CE24D4BD22}
+		{83663E62-4420-45D6-8EB5-542E84864AE4} = {740E3C36-5DB0-4F9B-A0E5-25CE24D4BD22}
+		{095171E3-90F8-4AF2-8835-0509DCA1CDF2} = {740E3C36-5DB0-4F9B-A0E5-25CE24D4BD22}
+		{B5C6C847-4EDC-48AF-ADE6-9236D26FE12D} = {740E3C36-5DB0-4F9B-A0E5-25CE24D4BD22}
+	EndGlobalSection
+EndGlobal
