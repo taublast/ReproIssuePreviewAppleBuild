@@ -42,3 +42,16 @@ Okay these are just some repro steps, if you really work on a real-case project 
 Main workaround to this mess is to do a "Rebuild" of the project you just changed, only then click "Debug" or Start witthout debugging"".  
 
 So the worst case is when you changed the root project that references like 10 other projects you need to rebuild it otherwise for debugging you risk a nice  "Could not open port for debugger. Another process may be using the port.".
+
+This all is reproducible with or without preview options checked, my actual setup is on the picture:
+
+![image](https://github.com/user-attachments/assets/c4623ff1-8cb3-4949-be4d-097250c58606)
+
+What i also have:
+
+![image](https://github.com/user-attachments/assets/c3b000df-af17-4d00-a37b-b034ee71021a)
+
+and
+
+![image](https://github.com/user-attachments/assets/0131784e-e08d-4b80-a016-5ea2ff0ea996)
+
